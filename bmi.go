@@ -20,14 +20,11 @@ func main() {
 	heightInput, _ := reader.ReadString('\n')
 
 	weightInput = strings.Replace(weightInput, "\n", "", -1)
-	heightInput = strings.Replace(weightInput, "\n", "", -1)
+	heightInput = strings.Replace(heightInput, "\n", "", -1)
 
 	weight, _ := strconv.ParseFloat(weightInput, 64)
 	height, _ := strconv.ParseFloat(weightInput, 64)
 
-	fmt.Print(weightInput)
-	fmt.Print(heightInput)
+	bmi := weight / (height * height)
+	fmt.Printf("Your BMI:  %.2f", bmi)
 }
-
-// float64 has it ha\s\
-// the second value should include the second
