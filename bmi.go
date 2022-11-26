@@ -4,22 +4,17 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-)
 
-const (
-	mainTitle   = "BMI Calculator"
-	separator   = "-------------------"
-	weightPromt = "Plese enter the weight in Kg:  "
-	heightPromt = "Please enter the height in cm: "
+	"github.com/stefg/bmi/info"
 )
 
 func main() {
-	fmt.Println(mainTitle)
-	fmt.Println(separator)
+	fmt.Println(info.MainTitle)
+	fmt.Println(info.Separator)
 
-	fmt.Println(weightPromt)
+	fmt.Println(info.WeightPromt)
 	weightInput, _ := reader.ReadString('\n')
-	fmt.Println(heightPromt)
+	fmt.Println(info.HeightPromt)
 	heightInput, _ := reader.ReadString('\n')
 
 	weightInput = strings.Replace(weightInput, "\n", "", -1)

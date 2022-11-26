@@ -14,10 +14,7 @@
 
 [6 - Introducing constants ](../../tree/5d8d283f1c33c9cd99ff98f55f6bc5eec099150f/)
 
-[7 - Empty ](../../tree//)
+[7 - Splitting the code in files ](../../tree/0a5c60da3ad5e72ba286a3f691cc5c8e4be39898/)
 
 [8 - Empty ](../../tree//)
 
-[9 - Empty ](../../tree//)
-
-[10 - Empty ](../../tree//)
