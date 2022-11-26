@@ -12,7 +12,7 @@
 
 [5 - Outputting formatting strings ](../../tree/81bd793e15c1ca0861124bfaa4d4421ca7084dd3/)
 
-[6 - Empty ](../../tree//)
+[6 - Introducing constants ](../../tree/5d8d283f1c33c9cd99ff98f55f6bc5eec099150f/)
 
 [7 - Empty ](../../tree//)
 

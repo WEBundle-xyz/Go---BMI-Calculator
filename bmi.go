@@ -1,14 +1,10 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 	"strconv"
 	"strings"
 )
-
-var reader = bufio.NewReader(os.Stdin)
 
 const (
 	mainTitle   = "BMI Calculator"
@@ -35,4 +31,3 @@ func main() {
 	bmi := weight / (height * height)
 	fmt.Printf("Your BMI:  %.2f", bmi)
 }
-
